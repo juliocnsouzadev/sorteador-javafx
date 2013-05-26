@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" minHeight="271.0" minWidth="494.0" prefHeight="271.0" prefWidth="494.0" xmlns:fx="http://javafx.com/fxml" fx:controller="sorteiojavafx.SampleController">
+  <children>
+    <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16.0" minWidth="69.0" text="Vencedor" />
+    <Button fx:id="button" layoutX="146.0" layoutY="220.0" onAction="#handleButtonAction" text="Sortear" />
+    <Label id="label1" layoutX="42.0" layoutY="31.0" text="javaFX Sorteador">
+      <effect>
+        <DropShadow color="#646464" offsetX="5.0" offsetY="5.0" />
+      </effect>
+      <font>
+        <Font size="24.0" />
+      </font>
+    </Label>
+    <ImageView id="emptyImageView1" fitHeight="150.0" fitWidth="200.0" layoutX="284.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@SoccerDuke%20Futebol%20brasil.png" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>
