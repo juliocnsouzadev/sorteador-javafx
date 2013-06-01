@@ -11,8 +11,8 @@
 
 <AnchorPane id="AnchorPane" minHeight="271.0" minWidth="494.0" prefHeight="271.0" prefWidth="494.0" xmlns:fx="http://javafx.com/fxml" fx:controller="sorteiojavafx.SampleController">
   <children>
-    <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16.0" minWidth="69.0" text="Vencedor" />
-    <Button fx:id="button" layoutX="146.0" layoutY="220.0" onAction="#handleButtonAction" text="Sortear" />
+    <Label fx:id="label" layoutX="111.0" layoutY="128.0" minHeight="16.0" minWidth="69.0" text="Vencedor" />
+    <Button fx:id="button" layoutX="111.0" layoutY="184.0" onAction="#handleButtonAction" text="Sortear" />
     <Label id="label1" layoutX="42.0" layoutY="31.0" text="javaFX Sorteador">
       <effect>
         <DropShadow color="#646464" offsetX="5.0" offsetY="5.0" />

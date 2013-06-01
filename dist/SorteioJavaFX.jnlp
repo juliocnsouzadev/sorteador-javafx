@@ -11,7 +11,7 @@
   </resources>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="SorteioJavaFX.jar" size="209470" download="eager" />
+    <jar href="SorteioJavaFX.jar" size="209430" download="eager" />
   </resources>
 <security>
   <all-permissions/>
